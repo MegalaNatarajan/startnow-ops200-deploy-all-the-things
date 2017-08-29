@@ -2,6 +2,9 @@
   "name": "basic-heroku-app",
   "version": "0.1.0",
   "description": "A small app for learning how to push an app to Heroku",
+  "engines": {
+    "node": "8.2.1"
+  },
   "main": "server/index.js",
   "scripts": {
     "build": "webpack",
